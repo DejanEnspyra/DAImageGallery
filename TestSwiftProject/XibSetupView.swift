@@ -2,7 +2,6 @@
 //  XibSetupView.swift
 //  My-Sign
 //
-//  Created by Born2invest on 24/04/16.
 //  Copyright © 2016 MySign. All rights reserved.
 //
 
