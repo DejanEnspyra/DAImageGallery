@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DAImageGallery" customModule="TestSwiftProject" customModuleProvider="target">
+            <connections>
+                <outlet property="pageControl" destination="yNO-bj-P1r" id="92o-yq-cn5"/>
+                <outlet property="scrollView" destination="du9-Fs-Ary" id="eQD-7d-Iax"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="du9-Fs-Ary">
+                    <rect key="frame" x="0.0" y="104" width="320" height="360"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="pCs-eZ-IQE"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="yNO-bj-P1r">
+                    <rect key="frame" x="0.0" y="472" width="320" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="g1A-1h-GAI"/>
+                    </constraints>
+                </pageControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZ9-1A-yzX">
+                    <rect key="frame" x="227" y="8" width="85" height="55"/>
+                    <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                    <state key="normal" title="Back"/>
+                    <connections>
+                        <action selector="onBackButton:" destination="-1" eventType="touchUpInside" id="d23-CL-D6U"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="RZ9-1A-yzX" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.263" id="H0v-Vo-s1P"/>
+                <constraint firstItem="du9-Fs-Ary" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.635" id="IKe-AZ-eSQ"/>
+                <constraint firstItem="yNO-bj-P1r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OaO-c4-ibB"/>
+                <constraint firstItem="yNO-bj-P1r" firstAttribute="top" secondItem="du9-Fs-Ary" secondAttribute="bottom" constant="8" id="RKr-BW-65b"/>
+                <constraint firstItem="du9-Fs-Ary" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="aqB-9w-I6a"/>
+                <constraint firstItem="RZ9-1A-yzX" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.096" id="fdN-Rc-WDs"/>
+                <constraint firstAttribute="trailing" secondItem="RZ9-1A-yzX" secondAttribute="trailing" constant="8" id="iAN-D4-jLq"/>
+                <constraint firstItem="yNO-bj-P1r" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="pSi-5h-ekM"/>
+                <constraint firstItem="du9-Fs-Ary" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="sQR-H1-O1y"/>
+                <constraint firstItem="RZ9-1A-yzX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="wgf-n4-nXj"/>
+                <constraint firstItem="du9-Fs-Ary" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="woL-yA-mCN"/>
+            </constraints>
+            <point key="canvasLocation" x="261" y="259"/>
+        </view>
+    </objects>
+</document>
