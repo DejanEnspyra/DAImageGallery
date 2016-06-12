@@ -1,8 +1,8 @@
 //
 //  XibSetupView.swift
-//  My-Sign
+//  http://theappspace.com
 //
-//  Copyright © 2016 MySign. All rights reserved.
+//  Copyright © 2016 TheAppSpace. All rights reserved.
 //
 
 import UIKit
