@@ -2,7 +2,6 @@
 //  DAImageGallery.swift
 //  TestSwiftProject
 //
-//  Created by Born2invest on 12/06/16.
 //  Copyright © 2016 TheAppSpace. All rights reserved.
 //
 
