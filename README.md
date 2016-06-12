@@ -3,7 +3,7 @@
 # DAImageGallery
 
 Completely free to use Image Gallery done in Swift. Feel free to edit according to your needs. 
-Visit http://theappspace.com for more tutorials about Swift and Objective-C.
+<br>Visit http://theappspace.com for more tutorials about Swift and Objective-C.</br>
 
 
 <p>
