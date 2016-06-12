@@ -2,7 +2,6 @@
 //  ViewController.swift
 //  TestSwiftProject
 //
-//  Created by Born2invest on 28/05/16.
 //  Copyright © 2016 TheAppSpace. All rights reserved.
 //
 
